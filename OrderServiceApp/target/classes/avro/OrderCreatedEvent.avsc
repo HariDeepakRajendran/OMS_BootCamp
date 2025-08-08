@@ -1,0 +1,11 @@
+{
+  "namespace": "com.handson.orderserviceapp.event",
+  "type": "record",
+  "name": "OrderCreatedEvent",
+  "fields": [
+    {"name": "orderNo", "type": "string"},
+    {"name": "item", "type": "string"},
+    {"name": "quantity", "type": "int"},
+    {"name": "price", "type": "double"}
+  ]
+}
