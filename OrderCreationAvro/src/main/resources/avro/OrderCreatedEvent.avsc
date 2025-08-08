@@ -1,0 +1,11 @@
+{
+  "namespace": "com.handson.ordercreationavro.dto",
+  "type": "record",
+  "name": "OrderCreatedEvent",
+  "fields": [
+    {"name": "orderNo", "type": "string"},
+    {"name": "enterpriseCode", "type": "string"},
+    {"name": "totalAmount", "type": "double"},
+    {"name": "timestamp", "type": "long"}
+  ]
+}
